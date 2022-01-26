@@ -1,15 +1,16 @@
-package programmers.lv2;
+package programmers;
+
 public class Solution {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		String s = "aabbaccc";
 
         int answer = 0;
         int min = s.length();
         
         for(int i=1;i<s.length();i++) {
-                        // 1. 분할한 값 저장용 배열 생성
+            // 1. 분할한 값 저장용 배열 생성
             int amount = s.length()/i;
             if(s.length()%i!=0) amount++; // 나머지가 있다면 1칸 추가
 
@@ -25,7 +26,7 @@ public class Solution {
                 startIndex = endIndex;
             }
             split[split.length-1] = s.substring(startIndex); // 마지막 배열은 직접 넣기
-
+            
             // 3. 각 배열간 비교
             String result = "";
             if(split.length==1) result = split[0]; 
@@ -42,6 +43,7 @@ public class Solution {
                             count = 1;
                         } else {
                             result += count + split[j];
+                            count = 1;
                             }
                         }
                     }   
@@ -54,7 +56,6 @@ public class Solution {
         }
         
         answer = min;
-                       
         System.out.println(answer);
 	}
 

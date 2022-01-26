@@ -1,9 +1,9 @@
-package jun100.no1546;
+package jun100;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class One {
+public class No1546 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int sub = sc.nextInt();
@@ -39,3 +39,4 @@ public class One {
 	
 
 }
+

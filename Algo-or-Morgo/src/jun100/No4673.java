@@ -1,11 +1,9 @@
-package jun100.no4673;
+package jun100;
 
-import java.util.Arrays;
-
-public class One {
+public class No4673 {
 
 	public static void main(String[] args) {
-	
+		
 		// 후보 숫자 셋팅
 		int[] arr = new int[10000];
 		for(int i=0;i<10000;i++) {

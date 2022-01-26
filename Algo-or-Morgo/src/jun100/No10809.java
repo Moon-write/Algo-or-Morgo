@@ -1,8 +1,8 @@
-package jun100.no10809;
+package jun100;
 
 import java.util.Scanner;
 
-public class One {
+public class No10809 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

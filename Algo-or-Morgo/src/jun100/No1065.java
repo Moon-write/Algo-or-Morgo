@@ -1,8 +1,9 @@
-package jun100.no1065;
+package jun100;
 
 import java.util.Scanner;
 
-public class One {
+public class No1065 {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt(); // 숫자 입력 1~1000

@@ -1,8 +1,8 @@
-package programmers.lv2;
+package programmers;
 
 import java.util.ArrayList;
 
-public class LruArrayList {
+public class LRU {
 
 	public static void main(String[] args) {
 
