@@ -1,4 +1,4 @@
-package programmers;
+package programmers.lv2;
 
 public class Solution {
 
