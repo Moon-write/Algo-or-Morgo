@@ -3,7 +3,7 @@ package jun100;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class No1521 {
+public class No1541 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
